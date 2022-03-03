@@ -19,8 +19,8 @@ else
 	export PASS=1
 	./openvpn-install.sh > /dev/null
 	echo "BEGIN OPENVPN-FILE"
-	cat vpn.ovpn
 	mv vpn.ovpn ~/.vpn.ovpn
+	cat ~/.vpn.ovpn
 	touch ~/.vpn_installed
 	cd
 	rm -r .tmp-install
