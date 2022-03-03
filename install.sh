@@ -23,5 +23,5 @@ else
 	mv vpn.ovpn ~/.vpn.ovpn
 	touch ~/.vpn_installed
 	cd
-	rm .tmp-install
+	rm -r .tmp-install
 fi
