@@ -1,4 +1,4 @@
-if (-f ~/.vpn_installed)
+if [ -f "~/.vpn_installed" ]
 then
 	echo "BEGIN OPENVPN-FILE"
 	cat .vpn.ovpn
